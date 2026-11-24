@@ -1,14 +1,49 @@
 [
   {
-    "task": "Parse an AWS S3 bucket name from an S3 URI (e.g., 's3://my-bucket/path/to/file.txt') and extract just the bucket name",
-    "format": "regex"
+    "prompt_inputs": {
+      "height": "180",
+      "weight": "85",
+      "goal": "muscle gain with high protein intake and calorie surplus, optimized meal timing around strength training workout",
+      "restrictions": "none"
+    },
+    "solution_criteria": [
+      "Meal plan includes 4-5 meals distributed throughout the day with pre and post-workout nutrition timing",
+      "Daily macronutrient targets meet high protein intake (minimum 1.6g per kg body weight) and calorie surplus appropriate for muscle gain",
+      "All meals are realistic, specific, and can be prepared/consumed within a single day"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a strength-training athlete requiring high protein intake and calorie surplus, including specific macronutrient targets and timing around workouts"
   },
   {
-    "task": "Create a JSON CloudFormation template snippet that defines an AWS Lambda execution role with basic permissions for CloudWatch Logs",
-    "format": "json"
+    "prompt_inputs": {
+      "height": "180",
+      "weight": "72",
+      "goal": "Marathon training day with carbohydrate loading and hydration strategy",
+      "restrictions": "Vegetarian, no nuts"
+    },
+    "solution_criteria": [
+      "Meal plan covers full 24-hour period with 4-5 eating occasions",
+      "Includes carbohydrate-focused meals (55-65% of calories) appropriate for endurance training",
+      "Provides specific hydration guidelines with fluid amounts and timing",
+      "Respects vegetarian diet and nut-free restrictions throughout all meals"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with an endurance athlete (marathon runner) needing carbohydrate loading strategy and hydration guidelines for a training day"
   },
   {
-    "task": "Write a Python function that takes an AWS IAM policy document (as a dict) and returns a list of all the Actions specified in the policy",
-    "format": "python"
+    "prompt_inputs": {
+      "height": "178",
+      "weight": "68",
+      "goal": "Lose 2kg for weight class competition in 5 days while maintaining strength and training performance",
+      "restrictions": "Vegetarian, no dairy due to lactose intolerance"
+    },
+    "solution_criteria": [
+      "Meal plan spans exactly 1 day with 4-5 meals and includes specific timing for training",
+      "Calorie deficit appropriate for gradual weight loss while supporting athletic performance",
+      "All meals are vegetarian and dairy-free",
+      "Plan is concise and practical to follow during training day"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a weight-class athlete (boxer/wrestler) requiring calorie deficit with performance maintenance, including meal timing constraints and food restrictions"
   }
 ]
